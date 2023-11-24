@@ -11,6 +11,11 @@ fn main() {
     let input: u32 = input.trim().parse() 
         .expect("Error parsing input");
 
-    let farenheit = input * 9/5 + 32;
+    let farenheit = celsius_to_farenheit(input as f32);
     println!("{} Celcius is {} Farenheit", input, farenheit);
 }
+
+fn celsius_to_farenheit(celsius: f32) -> f32 {
+    celsius * 9.0 / 5.0 + 32.0
+}
+
