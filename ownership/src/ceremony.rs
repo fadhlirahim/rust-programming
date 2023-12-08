@@ -9,9 +9,9 @@ fn main() {
                                         // takes_and_gives_back, which also
                                         // moves its return value into s3
     
-    let (s3, len) = calculate_length(s3);
-
-    println!("{}, {}", s3, len);
+     let (s3, len) = calculate_length(s3);
+ 
+     println!("{}, {}", s3, len);
 } // Here, s3 goes out of scope and is dropped. s2 was moved, so nothing
   // happens. s1 goes out of scope and is dropped.
 
