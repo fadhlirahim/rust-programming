@@ -12,7 +12,6 @@ fn main() {
 
     println!("x = {}, y = {}", x, y);
 
-
     let hello = String::from("bye, hello");
     let first_word = first_word(&hello);
     println!("first_word = {}", first_word);
