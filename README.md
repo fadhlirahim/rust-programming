@@ -18,10 +18,12 @@ Never get rusty!
 - [https://docs.rs/](https://docs.rs/)
 
 Style guidelines
+
     1. [https://doc.rust-lang.org/nightly/style-guide/](https://doc.rust-lang.org/nightly/style-guide/)
     2. [https://github.com/rust-lang/rustfmt](https://github.com/rust-lang/rustfmt)
     
 Package Management
+
     1. [https://doc.rust-lang.org/cargo/guide/](https://doc.rust-lang.org/cargo/guide/)
 
 # Map
