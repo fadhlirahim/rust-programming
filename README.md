@@ -28,7 +28,7 @@ Package Management
 
 # Map
 
-![Screenshot 2023-11-24 at 10.38.45 AM.png](Rust%20Notes%2008f1c528a9d04735b5954de07c280498/Screenshot_2023-11-24_at_10.38.45_AM.png)
+![Screenshot_2023-11-24_at_10 38 45_AM](https://github.com/fadhlirahim/rust-programming/assets/4056/781bd4f3-bda3-45b7-89da-9935351dcbcc)
 
 # Variables
 
@@ -258,15 +258,17 @@ let s2 = s1;
 }
 ```
 
-![trpl04-01.svg](Rust%20Notes%2008f1c528a9d04735b5954de07c280498/trpl04-01.svg)
+![trpl04-01](https://github.com/fadhlirahim/rust-programming/assets/4056/d2b8585d-5043-40ed-8399-d38a2b394b4e)
+
 
 When we assign `s1` to `s2`, the `String` data is copied, meaning we copy the pointer, the length, and the capacity that are on the stack. We do not copy the data on the heap that the pointer refers to. In other words, the data representation in memory looks like Figure 4-2.
 
-![trpl04-02.svg](Rust%20Notes%2008f1c528a9d04735b5954de07c280498/trpl04-02.svg)
+![trpl04-02](https://github.com/fadhlirahim/rust-programming/assets/4056/3bccd66a-25a6-43f5-88bf-3bdddb4b0022)
+
 
 If we clone the string variables, it will look like this:
 
-![trpl04-03.svg](Rust%20Notes%2008f1c528a9d04735b5954de07c280498/trpl04-03.svg)
+![trpl04-03](https://github.com/fadhlirahim/rust-programming/assets/4056/bfdb7e4e-d466-4fb0-ba22-c7043481f715)
 
 but in cases where the value is big, this will be a hit in run-time performance because cloning copies use space in memory stack
 
@@ -304,7 +306,7 @@ fn calculate_length(s: &String) -> usize {
 
 ampersands are ***references -***  they allow you to refer to some value without taking ownership of it.
 
-![trpl04-05.svg](Rust%20Notes%2008f1c528a9d04735b5954de07c280498/trpl04-05.svg)
+![trpl04-05](https://github.com/fadhlirahim/rust-programming/assets/4056/4c5c88c7-944d-424f-85f3-993b38855fd6)
 
 ### Mutable Reference Restriction
 
@@ -321,7 +323,7 @@ let r1 = &mut s;
 let r2 = &mut s;
 ```
 
-![Screenshot 2023-12-08 at 10.26.27 AM.png](Rust%20Notes%2008f1c528a9d04735b5954de07c280498/Screenshot_2023-12-08_at_10.26.27_AM.png)
+![Screenshot_2023-12-08_at_10 26 27_AM](https://github.com/fadhlirahim/rust-programming/assets/4056/b9caf84e-27f6-4748-a7ee-6f333ae6f6f1)
 
 ### Why?
 
@@ -396,7 +398,7 @@ fn main() {
 
 ```
 
-![trpl04-06.svg](Rust%20Notes%2008f1c528a9d04735b5954de07c280498/trpl04-06.svg)
+![trpl04-06](https://github.com/fadhlirahim/rust-programming/assets/4056/7ac513f0-7dcf-41e6-8f65-f86539ff50cd)
 
 ## Struct
 
