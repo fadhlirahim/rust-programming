@@ -1,6 +1,6 @@
 # Rust Programs
 
-Journaling my journey writing rust.
+Learning rust
 
 Never get rusty!
 
